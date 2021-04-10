@@ -47,6 +47,9 @@ html {
     font-weight: 700;
     margin-right: 5px;
 }
+.heading-font-light {
+    font-weight: 300;
+}
 /* HEADER */
 .nav-first {
     display: flex;
