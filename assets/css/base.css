@@ -406,6 +406,7 @@ html {
     list-style: none;
     margin-top: 10px;
     border-bottom: 1px dashed #555;
+    padding: 0px;
 }
 .footer-social a {
     background: none repeat scroll 0 0 #5a88ca;
