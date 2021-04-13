@@ -360,4 +360,79 @@ html {
     text-decoration: underline;
 }
 
+/* FOOTER */
+.footer {
+    background-color: #333333;
+    padding-top: 35px;
+    padding-bottom: 180px;
+    
+}
+.footer .footer-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+.footer-menu .footer-menu-items:first-child ,
+.footer-menu .footer-menu-items:last-child {
+    width: 25%;
+}
+.footer-menu .footer-menu-items {
+    width: 40%;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-nav .footer-menu-nav-items {
+    
+}
+.footer-menu-heading {
+    color: #5a88ca;
+}
+.footer-menu-heading::first-letter {
+    color: #6e6a6a;
+}
+.footer-nav-heading {
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: lighter;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.footer-menu-nav-items ul , 
+.footer-menu-nav-items ul li {
+    list-style: none;
+    margin-top: 10px;
+    border-bottom: 1px dashed #555;
+}
+.footer-social a {
+    background: none repeat scroll 0 0 #5a88ca;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    text-align: center;
+    width: 40px;
+    border: 1px solid #5a88ca;
+}
+.footer-icon {
+    font-size: 20px;
+    background-color: #5a88ca;
+    color: #fff;
+}
+.footer-email-type {
+    width: 70%;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.footer-submit-btn {
+    background-color: #5a88ca;
+    outline: none;
+    border: none;
+}
 
