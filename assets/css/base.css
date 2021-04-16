@@ -105,7 +105,7 @@ html {
     list-style: none;
     line-height: 30px;
     color: #333;
-    padding: 0px 12px;
+    padding: 0px;
     border: 1px #ccc;
     box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
     background-color: white;
@@ -118,7 +118,7 @@ html {
 
 .nav1st-subnav .nav1st-subnav-items {
     display: block;
-    min-width: 60px;
+    min-width: 90px;
     width: 100%;
 }
 
@@ -162,10 +162,12 @@ html {
 .header-subnav {
     height: 50px;
     background-color: #F4F4F4;
-    /* position: fixed; */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     left: 0;
     right: 0;
-    z-index: 2;
+    z-index: 1;
 }
 .header-subnav .subnav-list {  
     display: flex;
