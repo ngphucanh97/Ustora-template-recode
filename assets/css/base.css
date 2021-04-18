@@ -152,14 +152,12 @@ html {
 /* HEADER LOGO */
 .header-logo {
     width: 100%;
-    min-height: 120px;
+    padding: 25px 0;
 }
 .header-logo .header-logo-container {
     display: flex;
     justify-content: space-between;
-}
-.header-logo-container .header-logo-img {
-    margin: 33px 0px 20px 76px;
+    align-items: center;
 }
 .header-logo-container .header-logo-img:hover {
     opacity: 0.6;
@@ -167,7 +165,6 @@ html {
 .header-logo-container .header-cart-btn {
     font-size: 18px;
     border: 1px solid #ddd;
-    margin: 50px 50px 10px 50px;
     padding: 20px 20px;
 }
 .header-logo-container .header-cart-btn:hover,
