@@ -50,6 +50,16 @@ html {
     font-weight: 300;
 }
 
+.embed-responsive.embed-responsive-32by9:before {
+    padding-top: 28.125%;
+}
+.embed-responsive .centered-full-width-item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .container-xxl {
     max-width: 1800px;
     padding-left: 15px;
