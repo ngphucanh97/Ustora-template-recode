@@ -1,443 +1,681 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./assets/fonts/all.min.css">
-    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <title>Ustora</title>
-</head>
-<body>
-    <div id="all">
-        <!-- HEADER -->
-        <div class="header">
-            <div class="nav-first">
-                <div class="nav-first-col1 mt-left-all">
-                    <ul class="nav-info">
-                        <li class="info-items items-hover">
-                            <a href="#">
-                                <i class="ti-user"></i>
-                                My Account
-                            </a>
-                        </li>
-                        <li class="info-items items-hover">
-                            <a href="#">
-                                <i class="ti-heart"></i>
-                                Wishlist
-                            </a>
-                        </li>
-                        <li class="info-items items-hover">
-                            <a href="#">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./assets/css/base.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./assets/fonts/all.min.css" />
+        <link
+            rel="stylesheet"
+            href="./assets/fonts/themify-icons/themify-icons.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        />
+        <title>Ustora</title>
+    </head>
+    <body>
+        <div class="container-fluid app">
+            <!-- HEADER -->
+            <div class="header">
+                
+                    <div class="nav-first container-xxl">
+                    <div class="nav-first-col1">
+                        <ul class="nav-info">
+                            <li class="info-items items-hover">
+                                <a href="#">
+                                    <i class="ti-user"></i>
+                                    My Account
+                                </a>
+                            </li>
+                            <li class="info-items items-hover">
+                                <a href="#">
+                                    <i class="ti-heart"></i>
+                                    Wishlist
+                                </a>
+                            </li>
+                            <li class="info-items items-hover">
+                                <a href="#">
+                                    <i class="ti-shopping-cart"></i>
+                                    My Cart
+                                </a>
+                            </li>
+                            <li class="info-items items-hover">
+                                <a href="#">
+                                    <i class="ti-check-box"></i>
+                                    Checkout
+                                </a>
+                            </li>
+                            <li class="info-items items-hover">
+                                <a href="#">
+                                    <i class="ti-user"></i>
+                                    Login
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav-first-col2">
+                        <ul class="header-setting">
+                            <li class="setting-items items-hover">
+                                Currency
+                                <i class="ti-arrow-circle-down"></i>
+                                <ul class="nav1st-subnav">
+                                    <li class="nav1st-subnav-items">USD</li>
+                                    <li class="nav1st-subnav-items">INR</li>
+                                    <li class="nav1st-subnav-items">YEN</li>
+                                </ul>
+                            </li>
+                            <li class="setting-items items-hover">
+                                Language
+                                <i class="ti-arrow-circle-down"></i>
+                                <ul class="nav1st-subnav">
+                                    <li class="nav1st-subnav-items">English</li>
+                                    <li class="nav1st-subnav-items">French</li>
+                                    <li class="nav1st-subnav-items">German</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="header-logo container-xxl">
+                    <div class="header-logo-container">
+                        <div class="header-logo-img">
+                            <img
+                                src="./assets/img/logo.png"
+                                alt="Ustora Logo"
+                            />
+                        </div>
+                        <div class="header-cart-btn">
+                            <a href="#" class="a-nostyle">
+                                Cart - <span style="color: #5a88ca">100$</span>
                                 <i class="ti-shopping-cart"></i>
-                                My Cart
                             </a>
-                        </li>
-                        <li class="info-items items-hover">
-                            <a href="#">
-                                <i class="ti-check-box"></i>
-                                Checkout
-                            </a>
-                        </li>
-                        <li class="info-items items-hover">
-                            <a href="#">
-                                <i class="ti-user"></i>
-                                Login
-                            </a>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
+                    </div>
+                   
+            
+                    <div class="header-subnav reset-list-items container-xxl">
+                <ul class="subnav-list">
+                    <li class="subnav-items">
+                        <a href="#" class="reset-list-items white-text">home</a>
+                    </li>
+                    <li class="subnav-items">
+                        <a href="#" class="reset-list-items">shop page</a>
+                    </li>
+                    <li class="subnav-items">
+                        <a href="#" class="reset-list-items">single product</a>
+                    </li>
+                    <li class="subnav-items">
+                        <a href="#" class="reset-list-items">Cart</a>
+                    </li>
+                    <li class="subnav-items">
+                        <a href="#" class="reset-list-items">checkout</a>
+                    </li>
+                    <li class="subnav-items">
+                        <a href="#" class="reset-list-items">category</a>
+                    </li>
+                    <li class="subnav-items">
+                        <a href="#" class="reset-list-items">others</a>
+                    </li>
+                    <li class="subnav-items">
+                        <a href="#" class="reset-list-items">contact</a>
+                    </li>
+                </ul>
+                    </div>
+                
+            </div>
+            <!-- SLIDE SHOW -->
+            <div class="slide-show">
+                <div class="slide-products container-xxl">
+                    <div
+                        id="carouselExampleControls"
+                        class="carousel slide"
+                        data-ride="carousel"
+                    >
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img
+                                    src="./assets/img/spider-man.jpg"
+                                    class="d-block w-100 img-all"
+                                    alt="..."
+                                />
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="./assets/img/halo-slide.jpg"
+                                    class="d-block w-100 img-all"
+                                    alt="..."
+                                />
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="./assets/img/animal-crossing-new-horizons-switch-hero.jpg"
+                                    class="d-block w-100 img-all"
+                                    alt="..."
+                                />
+                            </div>
+                        </div>
+                        <a
+                            class="carousel-control-prev"
+                            href="#carouselExampleControls"
+                            role="button"
+                            data-slide="prev"
+                        >
+                            <span
+                                class="carousel-control-prev-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a
+                            class="carousel-control-next"
+                            href="#carouselExampleControls"
+                            role="button"
+                            data-slide="next"
+                        >
+                            <span
+                                class="carousel-control-next-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
-                <div class="nav-first-col2">
-                    <ul class="header-setting">
-                        <li class="setting-items items-hover">
-                            Currency
-                            <i class="ti-arrow-circle-down"></i>
-                            <ul class="nav1st-subnav">
-                                <li class="nav1st-subnav-items">USD</li>
-                                <li class="nav1st-subnav-items">INR</li>
-                                <li class="nav1st-subnav-items">YEN</li>
-                            </ul>                            
-                        </li>
-                        <li class="setting-items items-hover">
-                            Language
-                            <i class="ti-arrow-circle-down"></i>
-                            <ul class="nav1st-subnav">
-                                <li class="nav1st-subnav-items">English</li>
-                                <li class="nav1st-subnav-items">French</li>
-                                <li class="nav1st-subnav-items">German</li>
-                            </ul>
-                        </li>
-                    </ul>
+                <div class="slide-service">
+                    <div class="slide-service-container">
+                        <div class="slide-service-items">
+                            <button
+                                type="button"
+                                class="btn btn-primary btn-lg btn-day-return"
+                            >
+                                <h2>
+                                    <i class="fas fa-sync-alt"></i>
+                                </h2>
+                                30 Days Return
+                            </button>
+                        </div>
+                        <div class="slide-service-items">
+                            <button
+                                type="button"
+                                class="btn btn-primary btn-lg btn-free-ship"
+                            >
+                                <h2>
+                                    <i class="fas fa-shipping-fast"></i>
+                                </h2>
+                                Free Shipping
+                            </button>
+                        </div>
+                        <div class="slide-service-items">
+                            <button
+                                type="button"
+                                class="
+                                    btn btn-primary btn-lg btn-secure-payment
+                                "
+                            >
+                                <h2>
+                                    <i class="fas fa-lock"></i>
+                                </h2>
+                                Secure Payments
+                            </button>
+                        </div>
+                        <div class="slide-service-items">
+                            <button
+                                type="button"
+                                class="btn btn-primary btn-lg btn-new-product"
+                            >
+                                <h2>
+                                    <i class="fas fa-gift"></i>
+                                </h2>
+                                New Products
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="header-logo">
-                <div class="header-logo-container mt-left-all">
-                    <div class="header-logo-img">
-                        <img src="./assets/img/logo.png" alt="Ustora Logo">
+
+            <!-- Main Content -->
+            <div class="main container-xxl">
+                <!-- LASTEST PRODUCTS -->
+                <div class="main-lastest-product">
+                    <div class="main-header">
+                        <h3 class="heading-font-light">LASTEST PRODUCTS</h3>
                     </div>
-                    <div class="header-cart-btn">
-                        <a href="#" class="a-nostyle">
-                            Cart - <span style="color: #5A88CA;">100$</span> 
-                            <i class="ti-shopping-cart"></i>
-                        </a>
+                    <div class="lastest-products-list">
+                        <div class="lastest-products-items">
+                            <img
+                                src="./assets/img/games-cover/Shadow_of_the_Tomb_Raider-Deluxe_Edition.jpg"
+                                alt="Shadow of The Tomb Raider"
+                                class="lastest-products-img"
+                            />
+                            <div class="last-products-desc">
+                                <p class="product-name">
+                                    Shadow of The Tomb Raider
+                                </p>
+                                <br />
+                                <p class="products-items-price">
+                                    $25.5
+                                    <span class="text-line-through">$69.9</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="lastest-products-items">
+                            <img
+                                src="./assets/img/games-cover/red dead 2.png"
+                                alt=""
+                                class="lastest-products-img"
+                            />
+                            <div class="last-products-desc">
+                                <p class="product-name">
+                                    Red Dead Redemption 2
+                                </p>
+                                <br />
+                                <p class="products-items-price">
+                                    $45.0
+                                    <span class="text-line-through">$69.9</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="lastest-products-items">
+                            <img
+                                src="./assets/img/games-cover/cyberpunk.jpg"
+                                alt=""
+                                class="lastest-products-img"
+                            />
+                            <div class="last-products-desc">
+                                <p class="product-name">Cyberpunk 2077</p>
+                                <br />
+                                <p class="products-items-price">
+                                    $50.0
+                                    <span class="text-line-through">$69.9</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="lastest-products-items">
+                            <img
+                                src="./assets/img/games-cover/DOOM.jpg"
+                                alt=""
+                                class="lastest-products-img"
+                            />
+                            <div class="last-products-desc">
+                                <p class="product-name">Doom Eternal</p>
+                                <br />
+                                <p class="products-items-price">
+                                    $39.9
+                                    <span class="text-line-through">$69.9</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="lastest-products-items">
+                            <img
+                                src="./assets/img/games-cover/fifa-21.jpg"
+                                alt=""
+                                class="lastest-products-img"
+                            />
+                            <div class="last-products-desc">
+                                <p class="product-name">FIFA 2021</p>
+                                <br />
+                                <p class="products-items-price">
+                                    $60.0
+                                    <span class="text-line-through">$69.9</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- GAME STUDIOS AREA -->
+                <div class="main-brand-area">
+                    <div class="main-brand-heading">
+                        <h3 class="heading-font-light">GAME STUDIOS</h3>
+                    </div>
+                    <div class="main-brand-list">
+                        <img
+                            src="./assets/img/brand-studio-img/bandai-namco.png"
+                            alt=""
+                            class="main-brand-items"
+                        />
+                        <img
+                            src="./assets/img/brand-studio-img/santa-monica.jpg"
+                            alt=""
+                            class="main-brand-items"
+                        />
+                        <img
+                            src="./assets/img/brand-studio-img/Rockstar_Games.png"
+                            alt=""
+                            class="main-brand-items"
+                        />
+                        <img
+                            src="./assets/img/brand-studio-img/riot.png"
+                            alt=""
+                            class="main-brand-items"
+                        />
+                        <img
+                            src="./assets/img/brand-studio-img/blizzard-logo.jpg"
+                            alt=""
+                            class="main-brand-items"
+                        />
+                        <img
+                            src="./assets/img/brand-studio-img/cd-project-red.jpg"
+                            alt=""
+                            class="main-brand-items"
+                        />
+                    </div>
+                </div>
+
+                <!-- CATEGORIES -->
+                <div class="categories">
+                    <div class="categories-list">
+                        <div class="category-header">
+                            <div class="category-heading">Gaming Products</div>
+                            <button
+                                class="
+                                    category-button-view
+                                    btn btn-primary btn-sm
+                                "
+                            >
+                                View All
+                            </button>
+                        </div>
+
+                        <div class="category-items">
+                            <img
+                                src="./assets/img/categories/Gaming Products/ps5.png"
+                                alt=""
+                                class="category-items-img"
+                            />
+                            <div class="category-items-desc">
+                                <p class="category-item-name">Playstation 5</p>
+                                <p class="category-icon-rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <p class="products-items-price">$499.0</p>
+                            </div>
+                        </div>
+                        <div class="category-items">
+                            <img
+                                src="./assets/img/categories/Gaming Products/xbox.png"
+                                alt=""
+                                class="category-items-img"
+                            />
+                            <div class="category-items-desc">
+                                <p class="category-item-name">
+                                    XBox One Series X
+                                </p>
+                                <p class="category-icon-rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <p class="products-items-price">$400</p>
+                            </div>
+                        </div>
+                        <div class="category-items">
+                            <img
+                                src="./assets/img/categories/Gaming Products/nintendo.webp"
+                                alt=""
+                                class="category-items-img"
+                            />
+                            <div class="category-items-desc">
+                                <p class="category-item-name">
+                                    Nintendo Switch
+                                </p>
+                                <p class="category-icon-rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <p class="products-items-price">$400</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="categories-list">
+                        <div class="category-header">
+                            <div class="category-heading">Accessories</div>
+                            <button
+                                class="
+                                    category-button-view
+                                    btn btn-primary btn-sm
+                                "
+                            >
+                                View All
+                            </button>
+                        </div>
+
+                        <div class="category-items">
+                            <img
+                                src="./assets/img/categories/accessories/dualsense.png"
+                                alt=""
+                                class="category-items-img"
+                            />
+                            <div class="category-items-desc">
+                                <p class="category-item-name">
+                                    Dual Sense Controller
+                                </p>
+                                <p class="category-icon-rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <p class="products-items-price">$120.0</p>
+                            </div>
+                        </div>
+                        <div class="category-items">
+                            <img
+                                src="./assets/img/categories/accessories/razor-headphone.png"
+                                alt=""
+                                class="category-items-img"
+                            />
+                            <div class="category-items-desc">
+                                <p class="category-item-name">
+                                    Razor Gaming Headphone
+                                </p>
+                                <p class="category-icon-rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <p class="products-items-price">$90.0</p>
+                            </div>
+                        </div>
+                        <div class="category-items">
+                            <img
+                                src="./assets/img/categories/accessories/RGB-Keyboard-Box-Transparent.png"
+                                alt=""
+                                class="category-items-img"
+                            />
+                            <div class="category-items-desc">
+                                <p class="category-item-name">RGB Keyboard</p>
+                                <p class="category-icon-rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <p class="products-items-price">$125.0</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="categories-list">
+                        <div class="category-header">
+                            <div class="category-heading">Top New Games</div>
+                            <button
+                                class="
+                                    category-button-view
+                                    btn btn-primary btn-sm
+                                "
+                            >
+                                View All
+                            </button>
+                        </div>
+
+                        <div class="category-items">
+                            <img
+                                src="./assets/img/categories/Top new games/marvels-spider-man-miles-morales-ultimate-launch-edition.jpg"
+                                alt=""
+                                class="category-items-img"
+                            />
+                            <div class="category-items-desc">
+                                <p class="category-item-name">
+                                    Spider-man Miles Morales
+                                </p>
+                                <p class="category-icon-rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <p class="products-items-price">$69.9</p>
+                            </div>
+                        </div>
+                        <div class="category-items">
+                            <img
+                                src="./assets/img/categories/Top new games/DBZK.jpg"
+                                alt=""
+                                class="category-items-img"
+                            />
+                            <div class="category-items-desc">
+                                <p class="category-item-name">
+                                    Dragon Ball Z Kakarot
+                                </p>
+                                <p class="category-icon-rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <p class="products-items-price">$60.0</p>
+                            </div>
+                        </div>
+                        <div class="category-items">
+                            <img
+                                src="./assets/img/categories/Top new games/AC Valhalla.jpg"
+                                alt=""
+                                class="category-items-img"
+                            />
+                            <div class="category-items-desc">
+                                <p class="category-item-name">
+                                    Assassin Creed Valhalla
+                                </p>
+                                <p class="category-icon-rate">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                                <p class="products-items-price">$69.9</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             
-        </div>
-        <div class="header-subnav reset-list-items">
-            <ul class="subnav-list mt-left-all">
-                <li class="subnav-items"><a href="#" class="reset-list-items white-text">home</a></li>
-                <li class="subnav-items"><a href="#" class="reset-list-items">shop page</a></li>
-                <li class="subnav-items"><a href="#" class="reset-list-items">single product</a></li>
-                <li class="subnav-items"><a href="#" class="reset-list-items">Cart</a></li>
-                <li class="subnav-items"><a href="#" class="reset-list-items">checkout</a></li>
-                <li class="subnav-items"><a href="#" class="reset-list-items">category</a></li>
-                <li class="subnav-items"><a href="#" class="reset-list-items">others</a></li>
-                <li class="subnav-items"><a href="#" class="reset-list-items">contact</a></li>
-            </ul>
-        </div>
-
-        <!-- SLIDE SHOW -->
-        <div class="slide-show">
-            <div class="slide-products mt-left-all">
-                <div id="carouselExampleControls" class="carousel slide mt-left-all mt-right" data-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="./assets/img/spider-man.jpg" class="d-block w-100 img-all" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./assets/img/halo-slide.jpg" class="d-block w-100 img-all" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./assets/img/animal-crossing-new-horizons-switch-hero.jpg" class="d-block w-100 img-all" alt="...">
-                      </div>
+        
+        
+        <div class="footer">
+            <div class="footer-menu text-all">
+                <div class="footer-menu-items">
+                    <h2 class="footer-menu-heading">uStora</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nemo voluptate laudantium modi! Repudiandae
+                        consequuntur, assumenda natus quae debitis ratione vel
+                        architecto velit doloremque id sed rem, ducimus iusto
+                        magnam aut?
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="footer-icon"
+                            ><i class="fab fa-facebook-f"></i
+                        ></a>
+                        <a href="#" class="footer-icon"
+                            ><i class="fab fa-twitter"></i
+                        ></a>
+                        <a href="#" class="footer-icon"
+                            ><i class="fab fa-instagram"></i
+                        ></a>
+                        <a href="#" class="footer-icon"
+                            ><i class="fab fa-linkedin-in"></i
+                        ></a>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
                 </div>
-            </div>
-            <div class="slide-service mt-left-all">
-                <div class="slide-service-container mt-left-all mt-right">
-                    <div class="slide-service-items">
-                        <button type="button" class="btn btn-primary btn-lg btn-day-return">
-                            <h2>
-                                <i class="fas fa-sync-alt"></i>
-                            </h2>30 Days Return
+
+                <div class="footer-menu-items footer-nav">
+                    <div class="footer-menu-nav-items">
+                        <h2 class="footer-nav-heading">User Navagation</h2>
+                        <ul>
+                            <li>My account</li>
+                            <li>Order history</li>
+                            <li>Wishlist</li>
+                            <li>Vendor contact</li>
+                            <li>Front page</li>
+                        </ul>
+                    </div>
+                    <div class="footer-menu-nav-items">
+                        <h2 class="footer-nav-heading">Categories</h2>
+                        <ul>
+                            <li>Mobile Phone</li>
+                            <li>Home accesseries</li>
+                            <li>LED TV</li>
+                            <li>Computer</li>
+                            <li>Gadets</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-menu-items">
+                    <h2 class="footer-nav-heading">New Letter</h2>
+                    <p>
+                        Sign up to our newsletter and get exclusive deals you
+                        wont find anywhere else straight to your inbox!
+                    </p>
+                    <form action="">
+                        <input
+                            type="email"
+                            placeholder="Type your email"
+                            class="footer-email-type"
+                        />
+                        <br />
+                        <button
+                            class="btn btn-primary footer-submit-btn"
+                            type="submit"
+                        >
+                            SUBSCRIBE
                         </button>
-                    </div>
-                    <div class="slide-service-items">
-                        <button type="button" class="btn btn-primary btn-lg btn-free-ship">
-                            <h2>
-                                <i class="fas fa-shipping-fast"></i>
-                            </h2>Free Shipping
-                        </button>
-                    </div>
-                    <div class="slide-service-items">
-                        <button type="button" class="btn btn-primary btn-lg btn-secure-payment">
-                            <h2>
-                                <i class="fas fa-lock"></i>
-                            </h2>  
-                            Secure Payments
-                        </button>
-                    </div>
-                    <div class="slide-service-items">
-                        <button type="button" class="btn btn-primary btn-lg btn-new-product">
-                            <h2>
-                                <i class="fas fa-gift"></i>
-                            </h2>
-                            New Products
-                        </button>
-                    </div>
+                    </form>
                 </div>
             </div>
+
+            <div class="footer-end"></div>
         </div>
-
-        <!-- Main Content -->
-        <div class="main">
-
-            <!-- LASTEST PRODUCTS -->
-            <div class="main-lastest-product mt-left-all mt-right">
-                <div class="main-header"><h3 class="heading-font-light">LASTEST PRODUCTS</h3></div>
-            <div class="lastest-products-list mt-left-all">
-                    <div class="lastest-products-items">
-                    <img src="./assets/img/games-cover/Shadow_of_the_Tomb_Raider-Deluxe_Edition.jpg" alt="Shadow of The Tomb Raider" class="lastest-products-img">
-                    <div class="last-products-desc">
-                        <p class="product-name">Shadow of The Tomb Raider</p> 
-                        <br>
-                        <p class="products-items-price">$25.5
-                            <span class="text-line-through">$69.9</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="lastest-products-items">
-                        <img src="./assets/img/games-cover/red dead 2.png" alt="" class="lastest-products-img">
-                        <div class="last-products-desc">
-                            <p class="product-name">Red Dead Redemption 2</p> 
-                            <br>
-                            <p class="products-items-price">$45.0
-                                <span class="text-line-through">$69.9</span>
-                            </p>
-                        </div>
-                </div>
-                <div class="lastest-products-items">
-                    <img src="./assets/img/games-cover/cyberpunk.jpg" alt="" class="lastest-products-img">
-                    <div class="last-products-desc">
-                        <p class="product-name">Cyberpunk 2077</p> 
-                        <br>
-                        <p class="products-items-price">$50.0
-                            <span class="text-line-through">$69.9</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="lastest-products-items">
-                    <img src="./assets/img/games-cover/DOOM.jpg" alt="" class="lastest-products-img">
-                    <div class="last-products-desc">
-                        <p class="product-name">Doom Eternal</p> 
-                        <br>
-                        <p class="products-items-price">$39.9
-                            <span class="text-line-through">$69.9</span>
-                        </p>
-                    </div>
-                    </div>
-                <div class="lastest-products-items">
-                    <img src="./assets/img/games-cover/fifa-21.jpg" alt="" class="lastest-products-img">
-                    <div class="last-products-desc">
-                        <p class="product-name">FIFA 2021</p> 
-                        <br>
-                        <p class="products-items-price">$60.0
-                            <span class="text-line-through">$69.9</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            </div>
-            <!-- GAME STUDIOS AREA -->
-            <div class="main-brand-area mt-left-all mt-right">
-                <div class="main-brand-heading">
-                    <h3 class="heading-font-light">GAME STUDIOS</h3>
-                </div>
-                <div class="main-brand-list mt-left-all">
-                    <img src="./assets/img/brand-studio-img/bandai-namco.png" alt="" class="main-brand-items">
-                    <img src="./assets/img/brand-studio-img/santa-monica.jpg" alt="" class="main-brand-items">
-                    <img src="./assets/img/brand-studio-img/Rockstar_Games.png" alt="" class="main-brand-items">
-                    <img src="./assets/img/brand-studio-img/riot.png" alt="" class="main-brand-items">
-                    <img src="./assets/img/brand-studio-img/blizzard-logo.jpg" alt="" class="main-brand-items">
-                    <img src="./assets/img/brand-studio-img/cd-project-red.jpg" alt="" class="main-brand-items">
-                </div>
-            </div>
-
-            <!-- CATEGORIES -->
-        <div class="categories mt-left-all">
-            <div class="categories-list">
-                <div class="category-header">
-                        <div class="category-heading">Gaming Products</div>
-                        <button class="category-button-view btn btn-primary btn-sm">View All</button>
-                </div>
-
-                <div class="category-items">
-                    <img src="./assets/img/categories/Gaming Products/ps5.png" alt="" class="category-items-img">
-                    <div class="category-items-desc">
-                        <p class="category-item-name">Playstation 5</p>
-                        <p class="category-icon-rate">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </p>
-                        <p class="products-items-price">$499.0</p>
-                    </div>
-                </div>
-                <div class="category-items">
-                    <img src="./assets/img/categories/Gaming Products/xbox.png" alt="" class="category-items-img">
-                    <div class="category-items-desc">
-                        <p class="category-item-name">XBox One Series X</p>
-                        <p class="category-icon-rate">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </p>
-                        <p class="products-items-price">$400</p>
-                    </div>
-                </div>
-                <div class="category-items">
-                    <img src="./assets/img/categories/Gaming Products/nintendo.webp" alt="" class="category-items-img">
-                    <div class="category-items-desc">
-                        <p class="category-item-name">Nintendo Switch</p>
-                        <p class="category-icon-rate">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </p>
-                        <p class="products-items-price">$400</p>
-                    </div>
-                </div>
-            </div>
-            <div class="categories-list">
-                <div class="category-header">
-                        <div class="category-heading">Accessories</div>
-                        <button class="category-button-view btn btn-primary btn-sm">View All</button>
-                </div>
-
-                <div class="category-items">
-                    <img src="./assets/img/categories/accessories/dualsense.png" alt="" class="category-items-img">
-                    <div class="category-items-desc">
-                        <p class="category-item-name">Dual Sense Controller</p>
-                        <p class="category-icon-rate">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </p>
-                        <p class="products-items-price">$120.0</p>
-                    </div>
-                </div>
-                <div class="category-items">
-                    <img src="./assets/img/categories/accessories/razor-headphone.png" alt="" class="category-items-img">
-                    <div class="category-items-desc">
-                        <p class="category-item-name">Razor Gaming Headphone</p>
-                        <p class="category-icon-rate">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </p>
-                        <p class="products-items-price">$90.0</p>
-                    </div>
-                </div>
-                <div class="category-items">
-                    <img src="./assets/img/categories/accessories/RGB-Keyboard-Box-Transparent.png" alt="" class="category-items-img">
-                    <div class="category-items-desc">
-                        <p class="category-item-name">RGB Keyboard</p>
-                        <p class="category-icon-rate">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </p>
-                        <p class="products-items-price">$125.0</p>
-                    </div>
-                </div>
-            </div>
-            <div class="categories-list">
-                <div class="category-header">
-                        <div class="category-heading">Top New Games</div>
-                        <button class="category-button-view btn btn-primary btn-sm">View All</button>
-                </div>
-
-                <div class="category-items">
-                    <img src="./assets/img/categories/Top new games/marvels-spider-man-miles-morales-ultimate-launch-edition.jpg" alt="" class="category-items-img">
-                    <div class="category-items-desc">
-                        <p class="category-item-name">Spider-man Miles Morales</p>
-                        <p class="category-icon-rate">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </p>
-                        <p class="products-items-price">$69.9</p>
-                    </div>
-                </div>
-                <div class="category-items">
-                    <img src="./assets/img/categories/Top new games/DBZK.jpg" alt="" class="category-items-img">
-                    <div class="category-items-desc">
-                        <p class="category-item-name">Dragon Ball Z Kakarot</p>
-                        <p class="category-icon-rate">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </p>
-                        <p class="products-items-price">$60.0</p>
-                    </div>
-                </div>
-                <div class="category-items">
-                    <img src="./assets/img/categories/Top new games/AC Valhalla.jpg" alt="" class="category-items-img">
-                    <div class="category-items-desc">
-                        <p class="category-item-name">Assassin Creed Valhalla</p>
-                        <p class="category-icon-rate">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </p>
-                        <p class="products-items-price">$69.9</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer">
-        <div class="footer-menu text-all">
-            <div class="footer-menu-items">
-                <h2 class="footer-menu-heading">uStora</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptate laudantium modi! Repudiandae consequuntur, assumenda natus quae debitis ratione vel architecto velit doloremque id sed rem, ducimus iusto magnam aut?</p>
-                <div class="footer-social">
-                    <a href="#" class="footer-icon"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="footer-icon"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="footer-icon"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="footer-icon"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
-
-            <div class="footer-menu-items footer-nav">
-                <div class="footer-menu-nav-items">
-                    <h2 class="footer-nav-heading">User Navagation</h2>
-                    <ul>
-                        <li>My account</li>
-                        <li>Order history</li>
-                        <li>Wishlist</li>
-                        <li>Vendor contact</li>
-                        <li>Front page</li>
-                    </ul>
-                </div>
-                <div class="footer-menu-nav-items">
-                    <h2 class="footer-nav-heading">Categories</h2>
-                    <ul>
-                        <li>Mobile Phone</li>
-                        <li>Home accesseries</li>
-                        <li>LED TV</li>
-                        <li>Computer</li>
-                        <li>Gadets</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="footer-menu-items">
-                <h2 class="footer-nav-heading">New Letter</h2>
-                <p>Sign up to our newsletter and get exclusive deals you wont find anywhere else straight to your inbox!</p>
-                <form action="">
-                    <input type="email" placeholder="Type your email" class="footer-email-type">
-                    <br>
-                    <button class="btn btn-primary footer-submit-btn" type="submit">SUBSCRIBE</button>
-                </form>
-            </div>
-        </div>
-
-        <div class="footer-end"></div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
-</body>
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+        ></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+    </body>
 </html>
